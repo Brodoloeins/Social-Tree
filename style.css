@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 326px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.w100{
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-image: url(./assets/perfil.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.border{
+    width: 205px;
+    height: 205px;
+    border: 2px solid #BB99DD;
+    border-radius: 50%;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+}
+
+.text a{
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.links{
+    max-width: 326px;
+    width: 100%;
+}
+
+.links a{
+    font-weight: bold;
+    border: 2px solid #BB99DD;
+    color: #BB99DD;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 5px 0 5px 0;
+    border-radius: 4px;
+}
+
+.icons{
+    display: inline-block;
+    max-width: 236px;
+    width: 100%;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.icons a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+    .icons{
+        max-width: 100%;
+    }
+}
